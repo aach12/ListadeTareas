@@ -1,0 +1,81 @@
+body {
+    background-image: url(digital-painting-mountain-with-colorful-tree-foreground.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: 100% 112%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#nav-bar {
+    padding-left: 40%;
+    border-radius: 30%;
+    color: rgb(0, 0, 0)
+}
+
+#form-btn {
+    cursor: pointer;
+}
+
+.listItem {
+    display: flex;
+}
+
+
+input {
+    outline: none;
+}
+
+h2 {
+    padding-left: 35%;
+    font-size: 300%;
+    border: 30%;
+    color: rgb(255, 255, 255);
+}
+
+.listItem {
+    padding-left: 40%;
+}
+
+form {
+    padding-left: 40%;
+}
+
+.contador {
+    margin: 0;
+    background-size: 10% 10%;
+    background-color: blue;
+}
+
+.caja {
+    padding-top: 0%;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+}
+
+.marcador {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer; 
+}
+  
+.marcador:hover {
+    background-color: #333;
+}
+
+.completado{
+    background-color: rgb(4, 255, 4);
+    color: aqua;
+}

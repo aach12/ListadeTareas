@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lista de Tareas</title>
+</head>
+
+<body>
+
+    <div class="caja">
+
+        <div class="encabezado" style="display: flex;">
+            <h2 id="nav-bar-logo">Lista de Tareas</h2>
+            <div class="marcador"> 2 </div>
+        </div>
+
+        <nav id="nav-bar">
+            <div id="nav-bar-container">
+            </div>
+
+            <div class="form-inline">
+                <input placeholder="tarea..." class="form-control" id="inputTarea" />
+                <div id="submitButtons"><button type="button" class="agregarbut"
+                        onclick="addNewContact()">Agregar</button></div>
+            </div>
+            <table id="displayContacts" class="table"></table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
